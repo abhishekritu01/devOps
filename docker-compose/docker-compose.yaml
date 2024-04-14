@@ -9,6 +9,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password 
     volumes:
       - mymongo-data-one:/data/db
+      
 
   mongo-express:
     image: mongo-express
